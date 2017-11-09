@@ -8,7 +8,7 @@
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/index.js"></script>
-    
+
 </head>
 
 <body>
@@ -18,11 +18,13 @@
  	<div data-role="header">Header</div>
         
   	<div role="main" class="ui-content">
-    
-  		<input type="text" id="textinput" value=""  />
-  	    
-        <button onClick="submitText()">Submit A</button>
-  	    <button id="submitButton">Submit B</button>
+        <lable for="text-1">Name</lable>
+  		<input type="text" name="text-1" id="text-1" value=""  />
+  	    <lable for="email-1">Email</lable>
+  		<input type="email" name="email-1" id="email-1" value=""  />
+        <lable for="tel-1">Telephone</lable>
+  		<input type="tel" name="tel-1" id="tel-1" value=""  />
+  	    <button id="submitButton">Submit</button>
 
     </div>
         
